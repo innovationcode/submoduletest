@@ -27,3 +27,14 @@ yarn create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+# NEXT.js
+ 
+- Next.js is a framework created by Vercel. It is open-source based on Node.js and Babel and integrates with React for developing single-page apps. This makes server-side rendering very easy. As per nextjs.org: 
+- Differen between REACT and NEXT.js (https://www.ideamotive.co/blog/nextjs-vs-react-which-javascript-framework-is-better-for-your-front-end)
+### Step 1 :--
+- https://tailwindcss.com/docs/guides/nextjs
+    ```npx create-next-app -e with-tailwindcss airbnb-with-next.js```
+
+- To start server 
+    ```npm run dev```
