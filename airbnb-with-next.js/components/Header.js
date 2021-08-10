@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import { SearchIcon } from '@heroicons/react/solid';
+import { SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/solid';
 
 function Header() {
     return (
@@ -20,7 +20,7 @@ function Header() {
                 className= "flex items-center md:border-2 rounded-full py-2 md:shadow-sm"
             >
                 <input 
-                    className= "flex-grow pl-5 bg-transparent outline-none"
+                    className= "flex-grow pl-5 bg-transparent outline-none text-sm text-gray-600 placeholder-gray-400"
                     type= "text"
                     placeholder= "Start your search"
                 />
