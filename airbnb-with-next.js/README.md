@@ -38,3 +38,8 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 - To start server 
     ```npm run dev```
+
+- For Icons using 
+    - https://heroicons.com/
+    - https://github.com/tailwindlabs/heroicons (documentation)
+    ```npm install @heroicons/react```
