@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import SmallCard from "../components/SmallCard";
 
 export default function Home({ exploreData }) {
   return (
@@ -18,9 +19,16 @@ export default function Home({ exploreData }) {
         <section className="pt-6">
           <h2 className="text-4xl font-semibold pb-5">Explore nearby</h2>
           {/* Pull some data from a server - API endpoints here we are using static rendering using getStaticProps()*/}
-          {exploreData?.map((item) => (
-            <h1>{item.location}</h1>
-          ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {exploreData?.map((item) => (
+              <SmallCard
+                key={item.img}
+                img={item.img}
+                location={item.location}
+                distance={item.distance}
+              />
+            ))}
+          </div>
         </section>
       </main>
     </div>
